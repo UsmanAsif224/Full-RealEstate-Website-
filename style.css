@@ -1,0 +1,362 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body,
+HTML {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #292e37;
+}
+header {
+  background-color: #292e37;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+nav {
+  display: flex;
+  img {
+    height: 8rem;
+    margin-left: 9rem;
+  }
+}
+.items {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-right: 2.5rem;
+  cursor: pointer;
+  button {
+    height: 2.2rem;
+    width: 7rem;
+    border-radius: 1rem;
+    background-color: #42fc6d;
+    color: #000;
+    cursor: pointer;
+    border: none;
+    margin-left: 1rem;
+  }
+}
+
+.banner {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.imgbaground {
+  display: flex;
+  background-image: url(./Assets/banner\ 2.jpeg);
+  width: 100%;
+  height: 46%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  margin: 0px auto;
+}
+.content1 {
+  justify-content: center;
+  margin-top: 4rem;
+  position: relative;
+  margin-left: 30rem;
+  color: rgb(236, 251, 250);
+  text-shadow: 0 0 5px #00ffcc, 0 0 5px #00ffcc, 0 0 5px #00ffcc;
+}
+.buttons1 {
+  margin-top: 1rem;
+  btn1 {
+    display: flex;
+    padding: 1rem;
+    height: 1rem;
+  }
+  button {
+    width: 30%;
+    height: 2.4rem;
+    border-radius: 0.2rem;
+    font-size: 1.2rem;
+    color: white;
+    border: 0.1rem solid white;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 0.5rem;
+  }
+}
+.Search_input {
+  width: 60%;
+  height: 2.9rem;
+  margin-top: 1.5rem;
+  border-radius: 1.5rem;
+  border-color: #42fc6d;
+}
+#btn2 {
+  height: 3rem;
+  border-color: #42fc6d;
+}
+.banner_wrap {
+  margin-top: 1rem;
+  height: 50%;
+  width: 95%;
+  display: flex;
+  margin-left: 2rem;
+  gap: 2rem;
+}
+.left {
+  width: 70%;
+  height: 50vh;
+  color: white;
+  margin-left: 9rem;
+  text-align: center;
+  gap: 2rem;
+  p {
+    margin-top: 0.3rem;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+  }
+  .get_Home {
+    font-size: 2rem;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: rem;
+    margin-top: 6rem;
+    color: #00ffcc;
+    text-shadow: 0 0 5px #00ffcc, 0 0 5px #00ffcc, 0 0 5px #00ffcc,
+      0 0 20px #00ff99;
+  }
+  .Sign_in {
+    height: 2rem;
+    font-size: 1.2rem;
+    width: 17%;
+    margin-top: 0.8rem;
+    border: 0.1rem solid #4651d9;
+    border-radius: 0.5rem;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4651d9;
+    cursor: pointer;
+  }
+}
+.right {
+  width: 70%;
+  height: 50vh;
+  img {
+    height: 40vh;
+    margin-top: 1.8rem;
+    border-radius: 1rem;
+  }
+}
+.latest_Property {
+  padding: 2rem 4rem;
+  h1 {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+  }
+}
+.latest_images {
+  display: flex;
+  gap: 2.5rem;
+  margin-left: 4rem;
+  img {
+    height: 30vh;
+    border-radius: 0.7rem;
+  }
+  p {
+    color: white;
+  }
+}
+.service {
+  margin-top: 1.5rem;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+.What_Offer {
+  margin-top: 0.6rem;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  text-shadow: 0 0 5px #00ffcc, 0 0 5px #00ffcc, 0 0 5px #00ffcc;
+}
+.center_content {
+  display: flex;
+  margin-top: 1rem;
+  width: 95vw;
+  height: 82vh;
+  gap: 1rem;
+  justify-content: center;
+}
+.content_left {
+  width: 35%;
+  height: 82vh;
+  img {
+    height: 45vh;
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  h3 {
+    color: #00ffcc;
+    text-transform: uppercase;
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+  p {
+    color: white;
+    margin-top: 0.5rem;
+  }
+  button {
+    height: 2rem;
+    width: 20%;
+    margin-top: 0.7rem;
+    color: rgb(10, 10, 10);
+    border: #f5d469;
+    border-radius: 1rem;
+    background-color: #f5d469;
+  }
+}
+.content_right {
+  width: 35%;
+  height: 82vh;
+  img {
+    height: 45vh;
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  h3 {
+    color: #00ffcc;
+    text-transform: uppercase;
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+  p {
+    color: white;
+    margin-top: 0.5rem;
+  }
+  button {
+    height: 2rem;
+    width: 20%;
+    margin-top: 0.7rem;
+    color: rgb(10, 10, 10);
+    border: #f5d469;
+    border-radius: 1rem;
+    background-color: #f5d469;
+  }
+}
+.About_main {
+  display: flex;
+  width: 95%;
+  height: 80vh;
+  margin-top: 2rem;
+  justify-content: center;
+}
+.About_left {
+  height: 80vh;
+  gap: 2rem;
+  width: 40%;
+  h2 {
+    color: #00ffcc;
+    font-size: 2rem;
+  }
+  p {
+    color: white;
+    padding: 0.5rem;
+  }
+}
+.About_Right {
+  height: 80vh;
+  width: 45%;
+  img {
+    height: 80vh;
+    border-radius: 1rem;
+    width: 45vw;
+    margin-left: 0.5rem;
+  }
+}
+.footer_End {
+  display: flex;
+  width: 95%;
+  margin-top: 2rem;
+  height: 42vh;
+  justify-content: center;
+}
+.footer_Left {
+  align-items: center;
+  text-align: center;
+  width: 40%;
+  height: 42vh;
+  img {
+    height: 39vh;
+  }
+}
+.right {
+  height: 42vh;
+  width: 40%;
+}
+.wholi {
+  display: flex;
+  gap: 10px;
+
+  li {
+    font-weight: 500;
+    color: grey;
+    font-size: 17px;
+    list-style-type: none;
+  }
+}
+.end {
+  display: flex;
+  img {
+    height: 1.5rem;
+  }
+  p {
+    margin-top: 1.9rem;
+    color: grey;
+    margin-left: 0.4rem;
+  }
+}
+.phone {
+  display: flex;
+  img {
+    height: 2.5rem;
+  }
+  p {
+    margin-top: 2rem;
+    color: grey;
+    margin-left: 0.4rem;
+  }
+}
+.telephone {
+  display: flex;
+  img {
+    height: 2.5rem;
+  }
+  p {
+    margin-top: 2rem;
+    color: grey;
+    margin-left: 0.4rem;
+  }
+}
+.end_last {
+  color: grey;
+  h6 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 1rem;
+  }
+}
